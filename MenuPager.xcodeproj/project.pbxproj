@@ -16,6 +16,14 @@
 		FC2A38932A737EBB00794DEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A38912A737EBB00794DEE /* Main.storyboard */; };
 		FC2A38952A737EBC00794DEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2A38942A737EBC00794DEE /* Assets.xcassets */; };
 		FC2A38982A737EBC00794DEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2A38962A737EBC00794DEE /* LaunchScreen.storyboard */; };
+		FCA945392A73808C009880E2 /* MenuPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA945382A73808C009880E2 /* MenuPager.swift */; };
+		FCA945562A738153009880E2 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9454A2A73814D009880E2 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */; };
+		FCA945572A738153009880E2 /* CAPSPageMenu+UIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA945482A73814D009880E2 /* CAPSPageMenu+UIConfiguration.swift */; };
+		FCA945582A738153009880E2 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9454D2A73814D009880E2 /* CAPSPageMenu+UIScrollViewDelegate.swift */; };
+		FCA945592A738153009880E2 /* CAPSPageMenu+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9454E2A73814D009880E2 /* CAPSPageMenu+Options.swift */; };
+		FCA9455A2A738153009880E2 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9454C2A73814D009880E2 /* MenuItemView.swift */; };
+		FCA9455B2A738153009880E2 /* CAPSPageMenuConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA945492A73814D009880E2 /* CAPSPageMenuConfiguration.swift */; };
+		FCA9455C2A738153009880E2 /* CAPSPageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA9454B2A73814D009880E2 /* CAPSPageMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,14 @@
 		FC2A38942A737EBC00794DEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC2A38972A737EBC00794DEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC2A38992A737EBC00794DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA945382A73808C009880E2 /* MenuPager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPager.swift; sourceTree = "<group>"; };
+		FCA945482A73814D009880E2 /* CAPSPageMenu+UIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIConfiguration.swift"; sourceTree = "<group>"; };
+		FCA945492A73814D009880E2 /* CAPSPageMenuConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenuConfiguration.swift; sourceTree = "<group>"; };
+		FCA9454A2A73814D009880E2 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		FCA9454B2A73814D009880E2 /* CAPSPageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPSPageMenu.swift; sourceTree = "<group>"; };
+		FCA9454C2A73814D009880E2 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		FCA9454D2A73814D009880E2 /* CAPSPageMenu+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		FCA9454E2A73814D009880E2 /* CAPSPageMenu+Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAPSPageMenu+Options.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +108,15 @@
 		FC2A386F2A737E4600794DEE /* MenuPager */ = {
 			isa = PBXGroup;
 			children = (
+				FCA9454B2A73814D009880E2 /* CAPSPageMenu.swift */,
+				FCA9454E2A73814D009880E2 /* CAPSPageMenu+Options.swift */,
+				FCA945482A73814D009880E2 /* CAPSPageMenu+UIConfiguration.swift */,
+				FCA9454A2A73814D009880E2 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift */,
+				FCA9454D2A73814D009880E2 /* CAPSPageMenu+UIScrollViewDelegate.swift */,
+				FCA945492A73814D009880E2 /* CAPSPageMenuConfiguration.swift */,
+				FCA9454C2A73814D009880E2 /* MenuItemView.swift */,
 				FC2A38702A737E4600794DEE /* MenuPager.h */,
+				FCA945382A73808C009880E2 /* MenuPager.swift */,
 			);
 			path = MenuPager;
 			sourceTree = "<group>";
@@ -198,6 +222,7 @@
 				TargetAttributes = {
 					FC2A386C2A737E4600794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					FC2A38742A737E4600794DEE = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -259,6 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA945392A73808C009880E2 /* MenuPager.swift in Sources */,
+				FCA9455B2A738153009880E2 /* CAPSPageMenuConfiguration.swift in Sources */,
+				FCA945582A738153009880E2 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
+				FCA945592A738153009880E2 /* CAPSPageMenu+Options.swift in Sources */,
+				FCA945572A738153009880E2 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				FCA9455A2A738153009880E2 /* MenuItemView.swift in Sources */,
+				FCA9455C2A738153009880E2 /* CAPSPageMenu.swift in Sources */,
+				FCA945562A738153009880E2 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +466,7 @@
 		FC2A38802A737E4600794DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -455,6 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +498,7 @@
 		FC2A38812A737E4600794DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -493,6 +529,7 @@
 		FC2A38832A737E4600794DEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +545,7 @@
 		FC2A38842A737E4600794DEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
